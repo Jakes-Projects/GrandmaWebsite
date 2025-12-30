@@ -226,7 +226,7 @@
     }  
 }
 
-.board-gallery {
+.photo-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -235,10 +235,14 @@
   margin: 0 auto;
 }
 
-.board-gallery img {
+.photo-gallery img {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
+  max-height: 600px;
 }
+
+
 
 
