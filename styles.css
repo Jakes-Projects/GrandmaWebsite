@@ -190,7 +190,6 @@
 }
 
 
-/* Hero Section CSS */
 .main {
     background-image: url('images/GMAGIF.gif');
     background-size: cover;
@@ -226,7 +225,7 @@
     }  
 }
 
-.photo-gallery {
+.board-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -235,7 +234,7 @@
   margin: 0 auto;
 }
 
-.photo-gallery img {
+.board-gallery img {
   width: 100%;
   height: auto;
   display: block;
