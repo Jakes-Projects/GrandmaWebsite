@@ -242,6 +242,14 @@
   max-height: 600px;
 }
 
+.board-gallery video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-height: 1200px;
+}
+
 
 
 
