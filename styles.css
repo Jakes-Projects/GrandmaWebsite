@@ -242,12 +242,10 @@
   max-height: 600px;
 }
 
-.board-gallery video {
+.board-gallery iframe {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;
   display: block;
-  object-fit: contain;
-  max-height: 1200px;
 }
 
 
